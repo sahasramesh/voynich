@@ -95,5 +95,3 @@ rows = zip(lookupList, folioList)
 writer = csv.writer(f)
 for row in rows:
     writer.writerow(row)
-#order output by length of words or occurence of words
-#try not eliminating 1 and 2 letter words
